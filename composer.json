@@ -1,0 +1,21 @@
+{
+    "name": "tiago/boleias-na",
+    "description": "Boleias NA",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tiago.andre",
+            "email": "tiago.andre@javra.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "*",
+        "doctrine/dbal": "*",
+        "symfony/cache": "*",
+        "symfony/dotenv": "^6.4"
+    }
+}
